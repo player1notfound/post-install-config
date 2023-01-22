@@ -20,11 +20,9 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Azure Virtual Machines
+- osTicket website
+- osTicket Installation files
 
 <h2>Configuration Steps</h2>
 
@@ -32,7 +30,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Login with your credentials on the osTicket website. Register as an Agent panel and proceed to Agents = Roles = Add New Role. Create any sort of username for Name and go to permissions. Depending on the organization it may request divergent roles but let's check and add every role under Tickets, tasks, and Knowledgebase for this tutorial. 
 </p>
 <br />
 
@@ -40,7 +38,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Formulate a new department, agents, and team by going to Agents = Departments = Add New Department, create a new name for the department. Replicate the same steps for Teams and Agents. Under Add New Agents, fill in all the information necessary for the agents. When creating Agent password, uncheck Send the agent a password reset email and Require password change at next login. The Access, Permissions, and Teams section permits the agent access to be assigned in any role. Next, go to Users = User Directory, and duplicate the same protocol for customers 
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go to Admin Panel = Settings = Usersettings and ensure Require registration and login to create tickets is unchecked. Configure SLA by going to Admin Panel = Manage = SLA. Create three SLA plans: Sev-A (1 hour 24/7), Sev-B (4 hour 24/7), Sev-C (8 hours, business hours)
 </p>
 <br />
 
@@ -48,6 +53,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go to Admin Panel = Manage = Help Topics. Enter the four technical issues (Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset) under Topic separately and Save Changes.
 </p>
 <br />
