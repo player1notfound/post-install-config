@@ -42,7 +42,7 @@ Formulate a new department, agents, and team by going to Agents → Departments 
 <br />
 
 <p>
-<img src="https://i.imgur.com/VJT5zx2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Kh4f82n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Go to Admin Panel → Settings → Usersettings and ensure Require registration and login to create tickets is unchecked. Configure SLA by going to Admin Panel → Manage → SLA. Create three SLA plans: Sev-A (1 hour 24/7), Sev-B (4 hour 24/7), Sev-C (8 hours, business hours)
@@ -50,7 +50,7 @@ Go to Admin Panel → Settings → Usersettings and ensure Require registration 
 <br />
 
 <p>
-<img src="https://i.imgur.com/Kh4f82n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VJT5zx2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Go to Admin Panel → Manage → Help Topics. Enter the four technical issues (Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset) under Topic separately and Save Changes.
